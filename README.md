@@ -480,7 +480,6 @@
   <div class="hero">
     <div class="pond-bg"></div>
 
-    <!-- Dappled light -->
     <div class="light-patch"></div>
     <div class="light-patch"></div>
     <div class="light-patch"></div>
