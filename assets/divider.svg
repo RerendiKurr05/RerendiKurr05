@@ -1,0 +1,22 @@
+<svg viewBox="0 0 680 36" width="680" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="36" fill="#061410"/>
+  <!-- shimmer lines -->
+  <line x1="0" y1="10" x2="680" y2="10" stroke="rgba(46,168,154,0.22)" stroke-width="1"/>
+  <line x1="0" y1="20" x2="680" y2="20" stroke="rgba(46,168,154,0.14)" stroke-width="1"/>
+  <line x1="0" y1="28" x2="680" y2="28" stroke="rgba(46,168,154,0.10)" stroke-width="1"/>
+  <!-- small lily pads -->
+  <ellipse cx="130" cy="24" rx="32" ry="8" fill="#1e5c35" opacity="0.75"/>
+  <ellipse cx="340" cy="26" rx="26" ry="7" fill="#1e5c35" opacity="0.65"/>
+  <ellipse cx="560" cy="23" rx="34" ry="9" fill="#1e5c35" opacity="0.72"/>
+  <!-- tiny lotus buds -->
+  <g transform="translate(130,13)">
+    <ellipse cx="0" cy="0" rx="3" ry="5.5" fill="#c45c74" opacity="0.78" transform="rotate(-8 0 0)"/>
+    <ellipse cx="0" cy="0" rx="3" ry="5.5" fill="#d4748a" opacity="0.78" transform="rotate(8 0 0)"/>
+    <ellipse cx="0" cy="5" rx="5" ry="2.5" fill="#1e5c35" opacity="0.9"/>
+  </g>
+  <g transform="translate(560,12)">
+    <ellipse cx="0" cy="0" rx="3.5" ry="6" fill="#c45c74" opacity="0.75" transform="rotate(-6 0 0)"/>
+    <ellipse cx="0" cy="0" rx="3.5" ry="6" fill="#d4748a" opacity="0.75" transform="rotate(6 0 0)"/>
+    <ellipse cx="0" cy="6" rx="5.5" ry="2.5" fill="#1e5c35" opacity="0.9"/>
+  </g>
+</svg>

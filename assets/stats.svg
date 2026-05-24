@@ -1,0 +1,46 @@
+<svg viewBox="0 0 680 90" width="680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="cardBg1" cx="50%" cy="0%" r="120%">
+      <stop offset="0%" stop-color="#1a5c4a" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0a1f18" stop-opacity="0.9"/>
+    </radialGradient>
+    <radialGradient id="cardBg2" cx="50%" cy="0%" r="120%">
+      <stop offset="0%" stop-color="#105668" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0a1f18" stop-opacity="0.9"/>
+    </radialGradient>
+    <style>
+      @keyframes countUp {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="680" height="90" fill="#061410"/>
+
+  <!-- Card 1 -->
+  <rect x="8" y="8" width="210" height="74" rx="9" fill="url(#cardBg1)" stroke="rgba(46,168,154,0.28)" stroke-width="1"/>
+  <rect x="8" y="76" width="210" height="2" rx="1" fill="url(#gradLine1)" opacity="0"/>
+  <!-- accent line bottom -->
+  <line x1="20" y1="80" x2="206" y2="80" stroke="url(#lineGrad)" stroke-width="1.5" opacity="0.5"/>
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2d8c6e"/>
+      <stop offset="100%" stop-color="#2ea89a"/>
+    </linearGradient>
+  </defs>
+  <text x="113" y="46" text-anchor="middle" font-family="monospace" font-size="24" font-weight="bold" fill="#2ea89a">1,247</text>
+  <text x="113" y="64" text-anchor="middle" font-family="monospace" font-size="9.5" letter-spacing="2" fill="#6aac5a" opacity="0.85">COMMITS</text>
+
+  <!-- Card 2 -->
+  <rect x="235" y="8" width="210" height="74" rx="9" fill="url(#cardBg2)" stroke="rgba(46,168,154,0.28)" stroke-width="1"/>
+  <line x1="247" y1="80" x2="433" y2="80" stroke="url(#lineGrad)" stroke-width="1.5" opacity="0.5"/>
+  <text x="340" y="46" text-anchor="middle" font-family="monospace" font-size="24" font-weight="bold" fill="#2ea89a">34</text>
+  <text x="340" y="64" text-anchor="middle" font-family="monospace" font-size="9.5" letter-spacing="2" fill="#6aac5a" opacity="0.85">REPOS</text>
+
+  <!-- Card 3 -->
+  <rect x="462" y="8" width="210" height="74" rx="9" fill="url(#cardBg1)" stroke="rgba(46,168,154,0.28)" stroke-width="1"/>
+  <line x1="474" y1="80" x2="660" y2="80" stroke="url(#lineGrad)" stroke-width="1.5" opacity="0.5"/>
+  <text x="567" y="46" text-anchor="middle" font-family="monospace" font-size="24" font-weight="bold" fill="#2ea89a">491</text>
+  <text x="567" y="64" text-anchor="middle" font-family="monospace" font-size="9.5" letter-spacing="2" fill="#6aac5a" opacity="0.85">STARS</text>
+</svg>

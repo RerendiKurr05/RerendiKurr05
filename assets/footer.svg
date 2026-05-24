@@ -1,0 +1,80 @@
+<svg viewBox="0 0 680 80" width="680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes frogBob1 {
+        0%,100% { transform: translateY(0); }
+        50%     { transform: translateY(-4px); }
+      }
+      @keyframes frogBob2 {
+        0%,100% { transform: translateY(0); }
+        50%     { transform: translateY(-3px); }
+      }
+      .fb1 { animation: frogBob1 3.2s ease-in-out infinite; transform-origin: 110px 28px; }
+      .fb2 { animation: frogBob2 4s ease-in-out infinite; animation-delay: -1.5s; transform-origin: 570px 26px; }
+    </style>
+  </defs>
+
+  <rect width="680" height="80" fill="#061410"/>
+
+  <!-- water surface -->
+  <ellipse cx="340" cy="60" rx="330" ry="18" fill="#0d3028" opacity="0.8"/>
+  <ellipse cx="340" cy="54" rx="320" ry="12" fill="#1a5c4a" opacity="0.4"/>
+  <line x1="0" y1="46" x2="680" y2="46" stroke="rgba(46,168,154,0.18)" stroke-width="1"/>
+
+  <!-- Lily pads -->
+  <ellipse cx="110" cy="58" rx="54" ry="14" fill="#1e5c35" opacity="0.88"/>
+  <ellipse cx="110" cy="56" rx="47" ry="11" fill="#2d8c6e" opacity="0.6"/>
+  <line x1="110" y1="45" x2="110" y2="58" stroke="#1a4a2e" stroke-width="1.5" opacity="0.45"/>
+  <path d="M110 46 L100 56 L110 56 Z" fill="#061410" opacity="0.35"/>
+
+  <ellipse cx="340" cy="62" rx="44" ry="12" fill="#1e5c35" opacity="0.82"/>
+  <ellipse cx="340" cy="60" rx="38" ry="9" fill="#2d8c6e" opacity="0.55"/>
+
+  <ellipse cx="570" cy="57" rx="56" ry="15" fill="#1e5c35" opacity="0.88"/>
+  <ellipse cx="570" cy="55" rx="48" ry="11" fill="#2d8c6e" opacity="0.6"/>
+  <line x1="570" y1="44" x2="570" y2="57" stroke="#1a4a2e" stroke-width="1.5" opacity="0.42"/>
+  <path d="M570 45 L582 55 L570 55 Z" fill="#061410" opacity="0.32"/>
+
+  <!-- Center lotus bud -->
+  <g transform="translate(340,50)">
+    <ellipse cx="0" cy="0" rx="3.5" ry="7" fill="#c45c74" opacity="0.85" transform="rotate(-9 0 0)"/>
+    <ellipse cx="0" cy="0" rx="3.5" ry="7" fill="#d4748a" opacity="0.85" transform="rotate(9 0 0)"/>
+    <ellipse cx="0" cy="-1" rx="2.5" ry="5" fill="#f0a8b8" opacity="0.7"/>
+    <ellipse cx="0" cy="8" rx="6" ry="2.8" fill="#1e5c35" opacity="0.92"/>
+  </g>
+
+  <!-- Left frog -->
+  <g class="fb1">
+    <ellipse cx="99" cy="38" rx="11" ry="10" fill="#3d9e5a"/>
+    <ellipse cx="121" cy="38" rx="11" ry="10" fill="#3d9e5a"/>
+    <circle cx="99" cy="37" r="7" fill="#1a1a1a"/>
+    <circle cx="121" cy="37" r="7" fill="#1a1a1a"/>
+    <circle cx="101" cy="35" r="2.8" fill="white"/>
+    <circle cx="123" cy="35" r="2.8" fill="white"/>
+    <rect x="90" y="42" width="40" height="12" rx="4.5" fill="#4aac6e"/>
+    <ellipse cx="110" cy="50" rx="20" ry="12" fill="#4aac6e"/>
+    <ellipse cx="110" cy="53" rx="13" ry="8" fill="#b8ebb8"/>
+    <circle cx="103" cy="43" r="1.8" fill="#2d8c6e"/>
+    <circle cx="117" cy="43" r="1.8" fill="#2d8c6e"/>
+    <path d="M101 51 Q110 57 119 51" stroke="#2d8c6e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right frog -->
+  <g class="fb2">
+    <ellipse cx="559" cy="36" rx="11" ry="10" fill="#3d9e5a"/>
+    <ellipse cx="581" cy="36" rx="11" ry="10" fill="#3d9e5a"/>
+    <circle cx="559" cy="35" r="7" fill="#1a1a1a"/>
+    <circle cx="581" cy="35" r="7" fill="#1a1a1a"/>
+    <circle cx="561" cy="33" r="2.8" fill="white"/>
+    <circle cx="583" cy="33" r="2.8" fill="white"/>
+    <rect x="550" y="40" width="40" height="12" rx="4.5" fill="#4aac6e"/>
+    <ellipse cx="570" cy="48" rx="20" ry="12" fill="#4aac6e"/>
+    <ellipse cx="570" cy="51" rx="13" ry="8" fill="#b8ebb8"/>
+    <circle cx="563" cy="41" r="1.8" fill="#2d8c6e"/>
+    <circle cx="577" cy="41" r="1.8" fill="#2d8c6e"/>
+    <path d="M561 49 Q570 55 579 49" stroke="#2d8c6e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Footer text -->
+  <text x="340" y="78" text-anchor="middle" font-family="monospace" font-size="9.5" letter-spacing="2.5" fill="#3d9e5a" opacity="0.8">✦ ribbit · crafted with 🐸 in the pond · plop ✦</text>
+</svg>
