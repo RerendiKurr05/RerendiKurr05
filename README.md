@@ -74,14 +74,14 @@ Lightweight task runner that hops across services with zero config.
 <tr>
 <td width="50%" valign="top">
 
-**🌊&nbsp; [ripple-db](https://github.com/yourname/ripple-db)**
+**🌊&nbsp; [ripple-db](https://github.com/rerendikurr05/ripple-db)**
 Event propagation system. One change, many echoes.
 `Rust` &nbsp;·&nbsp; ⭐ 57
 
 </td>
 <td width="50%" valign="top">
 
-**🍃&nbsp; [duckweed](https://github.com/yourname/duckweed)**
+**🍃&nbsp; [duckweed](https://github.com/rerendikurr05/duckweed)**
 Tiny floating utilities. Fast, light, covers everything.
 `TypeScript` &nbsp;·&nbsp; ⭐ 203
 
@@ -97,7 +97,7 @@ Tiny floating utilities. Fast, light, covers everything.
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=yourname&theme=dark&background=0d1f1a&border=2e5f47&ring=e8a5c4&fire=e8a5c4&currStreakLabel=5a9873&sideLabels=5a9873&dates=a9c4b3&currStreakNum=f0ead8&sideNums=f0ead8)](https://github.com/yourname)
 
-[![yourname's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourname&show_icons=true&theme=dark&bg_color=0d1f1a&title_color=5a9873&icon_color=e8a5c4&text_color=f0ead8&border_color=2e5f47)](https://github.com/yourname)
+[![yourname's GitHub stats](https://github-readme-stats.vercel.app/api?username=rerendikurr05&show_icons=true&theme=dark&bg_color=0d1f1a&title_color=5a9873&icon_color=e8a5c4&text_color=f0ead8&border_color=2e5f47)](https://github.com/rerendikurr05)
 
 </div>
 
