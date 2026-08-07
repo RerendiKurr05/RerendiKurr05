@@ -8,12 +8,12 @@
 
 <div align="center">
 
-### 🐸 &nbsp; hey there — I'm **yourname** &nbsp; 🐸
+### 🐸 &nbsp; hey there — I'm **REREN** &nbsp; 🐸
 
-I'm a developer who thrives in **still waters** — building calm, reliable systems that handle the chaos underneath.
+I'm a developer who thrives in **Visual Development** — building calm, reliable systems that handle the chaos underneath.
 I believe good code, like a good pond, has depth you can't always see.
 
-Currently leaping between **full-stack web dev**, open source, and building tools that make other devs' lives easier.
+Currently leaping between **UI/UX**, open source, and building tools that make other devs' lives easier.
 When I'm not shipping, I'm somewhere watching the reflections.
 
 </div>
