@@ -1,22 +1,21 @@
-<svg viewBox="0 0 680 36" width="680" xmlns="http://www.w3.org/2000/svg">
-  <rect width="680" height="36" fill="#061410"/>
-  <!-- shimmer lines -->
-  <line x1="0" y1="10" x2="680" y2="10" stroke="rgba(46,168,154,0.22)" stroke-width="1"/>
-  <line x1="0" y1="20" x2="680" y2="20" stroke="rgba(46,168,154,0.14)" stroke-width="1"/>
-  <line x1="0" y1="28" x2="680" y2="28" stroke="rgba(46,168,154,0.10)" stroke-width="1"/>
-  <!-- small lily pads -->
-  <ellipse cx="130" cy="24" rx="32" ry="8" fill="#1e5c35" opacity="0.75"/>
-  <ellipse cx="340" cy="26" rx="26" ry="7" fill="#1e5c35" opacity="0.65"/>
-  <ellipse cx="560" cy="23" rx="34" ry="9" fill="#1e5c35" opacity="0.72"/>
-  <!-- tiny lotus buds -->
-  <g transform="translate(130,13)">
-    <ellipse cx="0" cy="0" rx="3" ry="5.5" fill="#c45c74" opacity="0.78" transform="rotate(-8 0 0)"/>
-    <ellipse cx="0" cy="0" rx="3" ry="5.5" fill="#d4748a" opacity="0.78" transform="rotate(8 0 0)"/>
-    <ellipse cx="0" cy="5" rx="5" ry="2.5" fill="#1e5c35" opacity="0.9"/>
+<svg width="900" height="44" viewBox="0 0 900 44" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2e5f47" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#2e5f47" stop-opacity="0.8"/>
+      <stop offset="85%" stop-color="#2e5f47" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#2e5f47" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="22" x2="900" y2="22" stroke="url(#dline)" stroke-width="1"/>
+  <g fill="#a9c4b3" opacity="0.4">
+    <circle cx="250" cy="14" r="1"/>
+    <circle cx="640" cy="30" r="1.2"/>
   </g>
-  <g transform="translate(560,12)">
-    <ellipse cx="0" cy="0" rx="3.5" ry="6" fill="#c45c74" opacity="0.75" transform="rotate(-6 0 0)"/>
-    <ellipse cx="0" cy="0" rx="3.5" ry="6" fill="#d4748a" opacity="0.75" transform="rotate(6 0 0)"/>
-    <ellipse cx="0" cy="6" rx="5.5" ry="2.5" fill="#1e5c35" opacity="0.9"/>
+  <g stroke="#5a9873" fill="none">
+    <ellipse cx="450" cy="22" rx="7" ry="3" stroke-width="1.1"/>
+    <ellipse cx="450" cy="22" rx="14" ry="6" stroke-width="0.8" opacity="0.6"/>
+    <ellipse cx="450" cy="22" rx="22" ry="9" stroke-width="0.5" opacity="0.35"/>
   </g>
+  <circle cx="450" cy="22" r="2.2" fill="#e8c468"/>
 </svg>
